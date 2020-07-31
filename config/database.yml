@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
+  host: srv-captain--postgres-db
   database: welcome_production
-  username: welcome
-  password: <%= ENV['WELCOME_DATABASE_PASSWORD'] %>
+  username: postadmin
+  password: 2P49ChkN3t4Da}*oa,
