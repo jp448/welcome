@@ -80,7 +80,7 @@ test:
 #
 production:
   <<: *default
-  host: srv-captain--postgres-db
+  host: <%= ENV['RAILS_DB_URL'] %>
   database: welcome_production
-  username: postadmin
-  password: 2P49ChkN3t4Da}*oa,
+  username: <%= ENV['RAILS_DB_USER'] %>
+  password: <%= ENV['RAILS_DB_PASSWORD'] %>
