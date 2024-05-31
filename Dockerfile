@@ -35,7 +35,7 @@ ENV RAILS_DB_PASSWORD $RAILS_DB_PASSWORD
 
 # Set the gemfile and install
 
-COPY Gemfile* ./
+COPY Gemfile ./
 
 RUN bundle install
 
