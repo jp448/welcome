@@ -38,13 +38,13 @@ ENV RAILS_DB_PASSWORD $RAILS_DB_PASSWORD
 COPY Gemfile ./
 
 
-RUN bundle update
+RUN bundle update rack-cache
 
 # Copy the main application.
 
 COPY . ./
 
-RUN rake assets:clean
+RUN rake assets:precompile
 
 # Expose port 3000 to the Docker host, so we can access it
 
