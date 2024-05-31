@@ -44,7 +44,7 @@ RUN bundle update
 
 COPY . ./
 
-RUN rake assets:precompile
+RUN rake assets:clean
 
 # Expose port 3000 to the Docker host, so we can access it
 
