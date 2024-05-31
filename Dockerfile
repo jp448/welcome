@@ -39,7 +39,6 @@ COPY Gemfile ./
 
 
 RUN bundle update
-RUN bundle install
 
 # Copy the main application.
 
