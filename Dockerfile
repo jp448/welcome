@@ -16,7 +16,7 @@ ARG RAILS_DB_PASSWORD=${RAILS_DB_PASSWORD}
 
 # Alpine
 
-RUN apk update && apk add nodejs yarn postgresql-client postgresql-dev tzdata build-base
+RUN apk update && apk add nodejs yarn postgresql-client postgresql-dev tzdata build-base shared-mime-info
 
 WORKDIR /usr/src/app
 
