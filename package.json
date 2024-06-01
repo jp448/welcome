@@ -11,9 +11,7 @@
     "flatpickr": "^4.6.3",
     "jquery": "^3.5.1",
     "mapbox-gl": "^1.10.1",
-    "node": "^14.21.3",
     "popper.js": "^1.16.1",
-    "sass": "^1.77.4",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
